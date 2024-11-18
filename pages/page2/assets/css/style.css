@@ -1,0 +1,106 @@
+/* General Body Styles */
+body {
+    background-color: white;
+    color: #333333;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #0044cc;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+/* Hero Section */
+.hero {
+    color: white;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.hero .btn {
+    background-color: #ffcc00;
+    color: white;
+}
+
+.hero .btn:hover {
+    background-color: #ff9900;
+}
+
+/* Footer */
+footer {
+    background-color: #333333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff9900;
+}
+
+/* Accent Design */
+.accent-line {
+    border-top: 5px solid #ffcc00;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Section Titles */
+h2, h3 {
+    color: #0044cc;
+}
+
+/* Links */
+a {
+    color: #0044cc;
+}
+
+a:hover {
+    color: #ffcc00;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #0044cc;
+    border-color: #0044cc;
+}
+
+.btn-primary:hover {
+    background-color: #003399;
+    border-color: #003399;
+}
+
+/* Example: Adjusting primary blue color to match your logo */
+.navbar {
+    background-color: #0056b3; /* Adjust this to match your logo's blue */
+}
+
+.hero {
+    background-color: #f0f0f0;
+}
+
+h2, h3 {
+    color: #0056b3; /* Use the same blue for headings */
+}
+
+.navbar-brand span {
+    font-size: 1.5rem; /* Adjust the font size */
+    font-weight: bold; /* Make the text bold */
+    color: white; /* Set the text color to white */
+}
+
