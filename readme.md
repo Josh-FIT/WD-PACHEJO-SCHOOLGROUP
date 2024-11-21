@@ -68,10 +68,14 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
+    1. This Project is about remaking an existimng website of a School/University
 - Whats the purpose
+    2. The purpose of this project is to enhance a student's skill in applying libraries to the code and also  balance creative design to functonality
 - What are key components
+   3. MultiPage Website/Single Page Website
 - What technology used and how it is used
-
+4. css, html, boostrap, javascript
+  
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
