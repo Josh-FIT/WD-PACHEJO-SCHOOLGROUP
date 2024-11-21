@@ -9,11 +9,14 @@
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Rizal Technological University</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  1. This Project is about remaking an existimng website of a School/University
+  2. The purpose of this project is to enhance a student's skill in applying libraries to the code and also  balance creative design to functonality
+  3. MultiPage Website/Single Page Website
+  4. css, html, boostrap, javascript
 </div>
 
 <br />
