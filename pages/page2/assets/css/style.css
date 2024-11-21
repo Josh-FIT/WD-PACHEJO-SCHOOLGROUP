@@ -85,9 +85,9 @@ a:hover {
     border-color: #003399;
 }
 
-/* Example: Adjusting primary blue color to match your logo */
+
 .navbar {
-    background-color: #0056b3; /* Adjust this to match your logo's blue */
+    background-color: #0056b3; 
 }
 
 .hero {
@@ -95,12 +95,12 @@ a:hover {
 }
 
 h2, h3 {
-    color: #0056b3; /* Use the same blue for headings */
+    color: #0056b3; 
 }
 
 .navbar-brand span {
-    font-size: 1.5rem; /* Adjust the font size */
-    font-weight: bold; /* Make the text bold */
-    color: white; /* Set the text color to white */
+    font-size: 1.5rem;
+    font-weight: bold; 
+    color: white; 
 }
 
