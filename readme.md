@@ -9,7 +9,7 @@
     <img src="./assets/img/logo.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Rizal Technological University</h3>
+  <h3 align="center">WD-SCHOOLGROUP-PACHEJO</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
@@ -124,4 +124,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Rizal Technological University | Refrerence site | https://www.rtu.edu.ph/ |
