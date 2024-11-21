@@ -13,10 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  1. This Project is about remaking an existimng website of a School/University
-  2. The purpose of this project is to enhance a student's skill in applying libraries to the code and also  balance creative design to functonality
-  3. MultiPage Website/Single Page Website
-  4. css, html, boostrap, javascript
+  This is a responsive and visually appealing school website designed to showcase essential information about the institution. It features a clean white background with a color scheme of blue, black, and gold, emphasizing elegance and professionalism. The site includes a home page with a dynamic image carousel, an about page detailing the school’s mission, vision, and hymn, an admission page outlining programs and courses offered, and a contact page for reaching out. The website also incorporates a header with a logo and navigation bar, ensuring easy access to all sections, and is built using HTML, Bootstrap, and external CSS for consistent styling.
 </div>
 
 <br />
