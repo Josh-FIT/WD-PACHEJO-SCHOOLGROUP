@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>University - Homepage</title>
+    <meta name="description" content="Rizal Technological University - The Home of the Gold and Blue. Discover our academics, campus life, and commitment to excellence.">
+    <title>Rizal Technological University - Homepage</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
         <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="/assets/img/header logo 4.png" alt="University Logo" class="img-fluid" style="width: 70px;">
-                <span class="ms-3 text-white">Rizal Technological university</span> <!-- Add your school name here -->
-            </a>             
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="/assets/img/header logo 4.png" alt="Rizal Technological University Logo" style="width: 60px;">
+                <span class="ms-3 fw-bold">Rizal Technological University</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="/pages/page1/index.html">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="/pages/page2/index.html">Academics</a></li>
                     <li class="nav-item"><a class="nav-link" href="/pages/page3/index.html">Contact</a></li>
@@ -31,58 +31,64 @@
         </div>
     </nav>
 
-    <!-- Hero Section with Image -->
-    <header class="hero text-center py-5" style="background-image: url('/assets/img/rtu\ 2.jpeg'); background-size: cover; background-position: center;">
+    <!-- Hero Section -->
+    <header class="hero-section text-center text-white d-flex align-items-center justify-content-center" style="background-image: url('/assets/img/rtu\ 2.jpeg'); background-size: cover; background-position: center; height: 60vh;">
         <div class="container">
-            <h1 class="display-4 text-white">The Home of the Gold and blue</h1>
-            <p class="lead text-white">"Science and Technology for the People."</p>
-            <a href="/pages/page1/index.html" class="btn btn-light btn-lg">Learn More</a>
+            <h1 class="display-4 fw-bold">The Home of the Gold and Blue</h1>
+            <p class="lead fst-italic">"Science and Technology for the People"</p>
+            <a href="/pages/page1/index.html" class="btn btn-warning btn-lg mt-3">Learn More</a>
         </div>
     </header>
 
     <!-- About Section -->
-    <section class="carousel-section py-5">
-        <div id="universityCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="/assets/img/RTU 1.jpg" class="d-block w-100" alt="Campus Image 1">
-                    <div class="carousel-caption d-none d-md-block">
+    <main>
+        <section class="carousel-section py-5">
+            <div id="universityCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/assets/img/RTU 1.jpg" class="d-block w-100 rounded" alt="Main campus view">
+                        <div class="carousel-caption d-md-block bg-dark bg-opacity-50 p-2 rounded">
+                            <h5>Boni Campus</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/img/rtu 2.jpeg" class="d-block w-100 rounded" alt="Science building">
+                        <div class="carousel-caption d-md-block bg-dark bg-opacity-50 p-2 rounded">
+                            <h5>Science and Technology Building</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/img/rtu 3.jpg" class="d-block w-100 rounded" alt="Library view">
+                        <div class="carousel-caption d-md-block bg-dark bg-opacity-50 p-2 rounded">
+                            <h5>University Quadrangle</h5>
+                        </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="/assets/img/rtu 2.jpeg" class="d-block w-100" alt="Campus Image 2">
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="/assets/img/rtu 3.jpg" class="d-block w-100" alt="Campus Image 3">
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#universityCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#universityCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#universityCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#universityCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </section>
+        </section>
+    </main>
+
     <!-- Footer -->
     <footer class="bg-dark text-white py-4">
         <div class="container text-center">
-            <p>&copy; 2024 Rizal Technological University | All Rights Reserved</p>
-            <div>
+            <p class="mb-1">&copy; 2024 Rizal Technological University | All Rights Reserved</p>
+            <div class="social-links">
                 <a href="#" class="text-white me-3">Facebook</a>
                 <a href="#" class="text-white me-3">Twitter</a>
                 <a href="#" class="text-white">Instagram</a>
             </div>
         </div>
     </footer>
+    
 
-   
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
 </body>
