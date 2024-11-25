@@ -1,24 +1,4 @@
-/* Navbar */
-.navbar {
-    background-color: #0056b3;
-}
-
-.nav-link {
-    font-size: 1.1rem;
-    margin-left: 15px;
-}
-
-/* Updated selector for hover effect */
-.navbar .nav-item .nav-link:hover {
-    color: #ffcc00 !important;
-}
-
-/* Active Link Styling */
-.navbar .nav-item .nav-link.active {
-    color: #ffcc00 !important;
-}
-
-/* General styles */
+/* General Styles */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f9f9f9;
@@ -29,6 +9,20 @@ body {
 .hero-section {
     height: 70vh;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+/* Navbar */
+.navbar {
+    background-color: #0056b3;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    margin-left: 15px;
+}
+
+.nav-link:hover {
+    color: #ffcc00 !important;
 }
 
 /* Carousel */
